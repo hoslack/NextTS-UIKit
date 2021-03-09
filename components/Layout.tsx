@@ -4,7 +4,6 @@ import * as React from 'react'
 
 type LayoutProps = {
   PageComponent?: React.ReactNode
-  SideComponent?: React.ReactNode
   title?: string
 }
 
