@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { color, fontSize, space, textAlign } from 'styled-system'
-import { TextProps } from './props'
+import { TextProps } from './TextProps'
 
 const H3 = styled.h3<TextProps>`
   ${space};
