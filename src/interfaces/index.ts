@@ -4,7 +4,13 @@
 //
 // import { User } from 'path/to/interfaces';
 
-export type User = {
-  id: number;
-  name: string;
-};
+export interface IUser {
+  id: number
+  first_name: string
+  last_name: string
+  email: string
+  date_of_birth: string
+  age: number
+  country: string
+  phone: string
+}
